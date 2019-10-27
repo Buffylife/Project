@@ -1,0 +1,130 @@
+// header
+.header{
+    background-image: url("../imgs/header/header--img1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    font-family: "GTWalsheimProRegular";
+    min-height: 720px;
+    min-width: 1110px;
+    position: relative;
+    width: 100%;
+}
+.header_video-block{
+    left: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow:hidden;
+}
+.video-block {
+    min-width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+.header_overlay{
+    background: linear-gradient(180deg, rgba(110,193,176,1) 0%, rgba(74,166,237,1) 100%);
+    height: 100%;
+    left: 0;
+    opacity: 0.749;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;     
+}
+.section-one{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    flex: 0 0 1110px;
+    z-index: 5;
+}
+.section-one_top{
+    align-items: center;
+    display: flex;
+    height: 75px;
+    justify-content: space-between;
+    margin-bottom: 115px;
+    margin-top: 30px;
+    width: 1110px;
+    
+}
+//доделать лого позицию
+.top_logo-right{
+    align-items: center;
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // margin-right: 110px;
+    max-height: 75px;
+    max-width: 119px;
+    padding: 5px 18px;
+}
+.logo-right_text{
+    font-size: 1.25em;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.logo-right_img{
+    height: 43px;
+    width: 80px;
+}
+
+.section-one_top .top_menu{
+    color: #fff;
+    font-size: 1.25em;
+}
+.top_menu{
+    flex: 0 0 640px;
+    margin-left: -30px;
+    margin-top: -5px;
+
+}
+.top_menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_icon{
+    display: inline-flex;
+    align-items: flex-start;
+}
+.icon_wrapper:not(:last-child){
+    margin-right: 45px;
+}
+
+.section-one_center{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25em;
+}
+.header_logo{
+    height: 233px;
+    width: 438px;
+}
+.center_text1{
+    display: block;
+    margin-bottom: 25px;
+    margin-left: -30px;
+    margin-top: -48px;
+    text-align: right;
+}
+.icon_img2{
+    height: 65px;
+    width: 65px;
+}
+.center_text2{
+    display: block;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+

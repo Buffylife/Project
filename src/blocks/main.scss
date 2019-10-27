@@ -1,0 +1,22 @@
+// Технические блоки
+@import "../consts/consts.scss";
+@import "fonts/fonts.scss";
+@import "mixins/mixins.scss";
+
+// Общие блоки(их можно миксовать)
+
+// Блоки
+@import "container/container.scss";
+@import "header/header.scss";
+@import "section-two/section-two.scss";
+@import "section-three/section-three.scss";
+@import "section-four/section-four.scss";
+@import "section-five/section-five.scss";
+@import "section-six/section-six.scss";
+@import "footer/footer.scss";
+
+
+
+
+
+// Медиа-запросы

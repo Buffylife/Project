@@ -1,0 +1,90 @@
+footer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-family: "GTWalsheimProRegular";
+    padding-bottom: 46px;
+    padding-top: 50px;
+    min-width: 1120px;
+}
+.footer_service{
+
+    display: flex;
+    a{color: #333;}
+
+    .service_content{
+        display: flex;
+        margin-right: 61px;
+        .content_caption{
+            color:#219cfe;
+        }
+        .content_list{
+            margin-left: 26px;
+            line-height: 1.45;
+        ul{
+            margin: 0;
+        }
+    }
+    }
+    .service_content2{
+        margin-right: 32px;
+    }
+
+}
+#myBtn{
+    border: 0;
+    background: 0;
+    color:#219cfe;
+    &:active{
+        border: 0;
+    }
+}
+.article_icon{
+    display: flex;
+    .icon_img:not(:last-child){
+        margin-right: 10px;
+    }
+}
+
+.icon_link--facebook{
+    fill:#219cfe;
+    width: 20px;
+    height: 20px;
+}
+.icon_link--instagram{
+    fill:#219cfe;
+    width: 20px;
+    height: 20px;
+}
+.icon_link--twitter{
+    fill:#219cfe;
+    width: 20px;
+    height: 20px;
+}
+
+.article_icon{
+    margin-bottom: 10px;
+}
+.autor{
+    align-items: center;
+    color: #525461;
+    display: flex;
+    background-color: #e8e8e8;
+    justify-content: center;
+    min-height: 50px;
+    width: 100%;
+}
+.autor_text{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    width: 1110px;
+span{
+    display: block;
+}
+}

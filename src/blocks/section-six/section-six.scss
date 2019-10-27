@@ -1,0 +1,107 @@
+.section-six{
+    display: flex;
+    padding-top: 47px;
+    padding-bottom: 56px;
+    position: relative;
+    width: 100%;
+}
+.section-six_overlay{
+    background: linear-gradient(180deg, rgba(110,193,176,1) 0%, rgba(74,166,237,1) 100%);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+}
+.section-six_block{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "GTWalsheimProMedium";
+    z-index: 5;
+    width: 100%;
+    .block_caption{
+        display: flex;
+        font-size: 30px;
+        margin-bottom: 18px;
+        .caption_hash{
+            background: #fff;
+            margin-left: 20px;
+            border-radius: 5px;
+        }
+    }
+    .block_form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "GTWalsheimProRegular";
+        font-weight: normal;
+        padding-left: 119px;
+        span{
+            margin-bottom: 16px;
+        }
+        .form_text{
+            margin-bottom: 24px;
+        }
+        .form_select{
+            margin-bottom: 15px;
+            form{
+                display: flex;
+                height: 40px;
+
+                .custom-select{
+                    border: #fff;
+                    color:#666;
+                    
+                    margin-right: 20px;
+                    width: 85px;
+                    &:focus{ 
+                    outline:#fff;
+                }
+                .custom-select__option{
+                    color: #666;
+                    border-radius: 0;
+                    
+                }
+                .custom-select__dropdown{
+                    top:38px;
+                }
+                .custom-select__option--value::after{
+                    background: url('../imgs/section-six/arrow-down.svg') no-repeat center;
+                    background-size: cover;
+                    border: none;
+                    height: 16px;
+                    right: 5px;
+                    width: 16px;
+                }
+            }
+                input{
+                    border: #fff;
+                    outline: none;
+                    padding-left: 20px;
+                    width: 265px;
+                    &::placeholder{
+                        color: #666;
+                    }
+                }
+            }
+        .btn-send{
+            background: #000;
+            border: 0;
+            color: #fff;
+            padding: 0 10px;
+            width: 145px;
+            
+
+        }
+    }
+    }
+    .block_btn-link{
+        img:first-child{
+            margin-right: 17px;
+        }
+    }
+}

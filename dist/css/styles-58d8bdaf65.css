@@ -1,0 +1,70 @@
+/* consts */
+/* colors */
+/* fonts */
+@font-face {
+  font-family: 'gothamPro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/gothamPro/GothamPro.eot');
+  /* IE9 Compat Modes */
+  src: url('../fonts/gothamPro/GothamPro.eot?#iefix') format('embedded-opentype'), url('../fonts/gothamPro/GothamPro.woff') format('woff'), url('../fonts/gothamPro/GothamPro.ttf') format('truetype');
+  /* Safari, Android, iOS */
+}
+
+/* page */
+body,
+.page {
+  font-family: 'gothamPro', sans-serif;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+}
+body__container,
+.page__container {
+  position: relative;
+}
+body__object,
+.page__object {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+body.fixed,
+.page.fixed,
+html.fixed {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  -ms-touch-action: none;
+      touch-action: none;
+}
+
+/* rating */
+.rating {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+.rating--read-only .rating__item {
+  pointer-events: none;
+}
+.rating__item {
+  cursor: pointer;
+}
+.rating__item:hover .rating__icon,
+.rating__item--active .rating__icon {
+  fill: #014c9e;
+}
+.rating__input {
+  display: none;
+}
+.rating__icon {
+  width: 22px;
+  height: 22px;
+  fill: #ededed;
+  -webkit-transition: 0.25s;
+       -o-transition: 0.25s;
+          transition: 0.25s;
+}

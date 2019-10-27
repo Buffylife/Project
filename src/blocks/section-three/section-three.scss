@@ -1,0 +1,50 @@
+//section-three
+.section-three{
+    align-items: center;
+    color: #333;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    min-height: 720px;
+    max-width: 980px;
+    margin: 0 auto;
+    .section-three_caption{
+        font-family: "GTWalsheimProMedium";
+        font-size: 2.1875em;
+        margin-bottom: 60px;
+
+    }
+    .section-three_bar{
+        display: flex;
+    }
+    .section-three_text{
+        display: flex;
+        flex-flow: column wrap;
+        font-family: "GTWalsheimProRegular";
+        width: 630px;
+    .text_block{
+        align-items: center;
+        display: flex;
+        margin-bottom: 30px;
+        &:first-child{
+            margin-bottom: 30px;
+        }
+    }
+    .block_img{
+        margin-right: 30px;
+    }
+    .block_lines span{
+        display: block;
+        font-size: 1.25em;
+        margin-bottom: 15px;
+    }
+    .block_lines p{
+        margin: 0;
+        font-size: 0.9375em;
+        line-height: 1.3;
+    }
+    }
+    .section-three_img{
+        margin-left: 100px;
+    }
+}
